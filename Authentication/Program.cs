@@ -10,7 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddDataProtection();
+//builder.Services.AddDataProtection();
 //builder.Services.AddHttpContextAccessor();
 //builder.Services.AddScoped<AuthService>();
 
